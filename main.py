@@ -3,7 +3,6 @@
 # Upload Date [ 4 April 2025 ]
 
 import requests
-import keyboard
 import time
 import random
 import string
