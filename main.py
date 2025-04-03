@@ -1,6 +1,6 @@
 # Code by HanX
-# Free Recode !!
-# Upload Date ( 4 April 2025 )
+# Free Recode!
+# Upload Date [ 4 April 2025 ]
 
 import requests
 import keyboard
@@ -29,6 +29,7 @@ def userAgent():
     return random.choice(lines).strip()
 
 def main():
+    os.system('clear')
     ngluser = input(f"\n{Fore.WHITE}[{Fore.GREEN}?{Fore.WHITE}] Username NGL : ").strip() 
     while True:
         try:
